@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ff1414">
+<title>흑조투어 ★ 청도 4박5일 $전액무료$ ★</title>
+<meta name="description" content="★본격★ 흑조투어 창립기념!! 중국 청도 4박5일 전.액.무.료!! 항공/숙박/식사/관광 몽땅 공짜!! 선착순 딱 1명!!">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23fff200'/%3E%3Ctext x='32' y='48' font-size='46' text-anchor='middle' font-family='sans-serif' font-weight='900' fill='%23ff1414'%3E%E2%98%85%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Jua&family=Yeon+Sung&family=Nanum+Myeongjo:wght@800&family=Noto+Sans+KR:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 바로가기</a>
+<audio id="bgm" src="assets/heukjo-tour.mp3" autoplay loop preload="auto"></audio>
+<audio id="call-voice" src="assets/heukjo-call.mp3" preload="auto"></audio>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">
+ <span>★ 긴급!! 흑조투어 창립기념 대.방.출 ★ 청도 4박5일 <b>$전액무료$</b> ★ 선착순 딱 1명!! ★ 마감임박!!! ★ 조건은 딱 하나!! 후기 작성 필수!! ★ 돈 받으면 흑조투어 아님 ★ 비밀보장 ★&nbsp;</span>
+ <span>★ 긴급!! 흑조투어 창립기념 대.방.출 ★ 청도 4박5일 <b>$전액무료$</b> ★ 선착순 딱 1명!! ★ 마감임박!!! ★ 조건은 딱 하나!! 후기 작성 필수!! ★ 돈 받으면 흑조투어 아님 ★ 비밀보장 ★&nbsp;</span>
+</div></div>
+
+<div class="page">
+<header class="masthead">
+ <a href="#" class="brand"><span class="brand-mark">黑<br>鳥</span><span class="brand-name">흑조투어<small>★ 신용! 친절! 정성! ★</small></span></a>
+ <div class="hits" aria-label="오늘 방문자 1명"><small>TODAY</small><span>0</span><span>0</span><span>0</span><span>0</span><span>1</span></div>
+</header>
+<div class="music-player" role="group" aria-label="배경음악 조절">
+ <button id="music-toggle" type="button" aria-label="배경음악 재생" aria-pressed="false">▶ 음악 재생</button>
+ <label for="music-volume">♪볼륨 <input id="music-volume" type="range" min="0" max="100" value="50" aria-label="배경음악 볼륨"><output id="volume-value" for="music-volume">50</output></label>
+ <span id="music-status" role="status">♬ 신나는 여행 음악!</span>
+</div>
+
+<main id="main" class="flyer">
+
+<!-- 1. 메인 찌라시 -->
+<section class="stk red hero" aria-labelledby="main-title">
+ <div class="stk-in">
+  <span class="burst burst-hero">본격!</span>
+  <p class="acro"><b>청</b>춘이여 <b>도</b>망쳐라!!</p>
+  <h1 id="main-title">
+   <span class="h-where"><span>중국</span>청도<small>(칭다오)</small></span>
+   <span class="h-days"><i>$</i>4박5일<i>$</i></span>
+  </h1>
+  <div class="free-oval"><strong>전.액.무.료</strong><span class="really">진짜임!!</span></div>
+  <p class="dotline">◆ 항공 | 숙박 | 식사 | 관광 | 픽업 | 가이드 ◆ <span>줄여서 ★☆★ <b>청.도</b></span></p>
+  <div class="circles">
+   <span>항공</span><span>숙박</span><span>식사</span><span>관광</span>
+   <strong>몽땅<br>공짜다!★</strong>
+  </div>
+ </div>
+</section>
+
+<!-- 2. 실제사진 -->
+<section class="stk blue photo" aria-label="청도 사진">
+ <div class="stk-in">
+  <figure>
+   <img src="assets/qingdao.jpg" alt="청도 바닷가의 잔교와 회란각" width="1400" height="941" fetchpriority="high">
+   <span class="stamp">실제<br>사진!!</span>
+   <figcaption>✈ 청도로 GO!! 인생여행 ✈</figcaption>
+   <button id="credits" type="button" aria-label="사진 저작권 정보">ⓒ</button>
+  </figure>
+  <p class="fine">※ 사진은 이해를 돕기 위한 연출입니다 ※</p>
+ </div>
+</section>
+
+<!-- 3. 0원 -->
+<section class="stk blue price" aria-label="가격 안내">
+ <div class="stk-in">
+  <p class="wish">★소원 이루어 드립니다.★</p>
+  <p class="price-was">정가 <s>1,980,000원</s></p>
+  <div class="price-now"><strong><span>⇨</span>0<em>원</em></strong><small>창립 이래 단 한 번도<br>돈 받은 적 없는<br>착한 투어</small></div>
+  <p class="bankbook">통장잔고? <b>몰라도 됩니다!!</b></p>
+  <p class="wand">★ 부가세·유류할증료·팁 <b>전부 0원</b> ★</p>
+ </div>
+</section>
+
+<!-- 4. 탈출 -->
+<section class="stk green escape" aria-label="탈출 안내">
+ <div class="stk-in">
+  <p class="bar-title">회사/학교/잔소리 지긋지긋하신 분!</p>
+  <p class="sub"><span class="bomb" aria-hidden="true">💣</span>탈출 전문업체 | 모든걸 잊게 해드림<span class="bomb" aria-hidden="true">💣</span></p>
+  <div class="pills-row">
+   <div class="pills"><span>회 사</span><span>학 교</span></div>
+   <p class="quote">“모든것을 <s>사라지게</s><br><b>떠나게</b> 해드립니다.”</p>
+  </div>
+  <p class="rate"><span>탈출<br>성공률</span><strong>100<small>%</small></strong></p>
+ </div>
+</section>
+
+<!-- 5. 혼자여도 -->
+<section class="stk yellow lonely" aria-label="1인 참가 안내">
+ <div class="stk-in">
+  <p class="heart-title">♥없던 여행 만들어드립니다♥</p>
+  <p class="tiny-row">※ 혼자라도 대환영!!! ※ 가족·친구에게 안 알리셔도 됨!!</p>
+  <div class="lonely-body">
+   <span class="burst burst-dark">주목!</span>
+   <p><b>혼자</b>여서 외로웠던 당신!<br><b>떠나</b>고 싶었던 당신!</p>
+  </div>
+  <p class="black-bar">★ 비밀보장 ★ 부담 ZERO ★ 1:1 전담 ★</p>
+ </div>
+</section>
+
+<!-- 5-1. 후기 필수 -->
+<section class="stk pink review" aria-label="참가 조건">
+ <div class="stk-in">
+  <p class="review-top">★ 참가 조건 딱 하나!! ★</p>
+  <p class="review-big">후기 작성 <b>필수!!</b></p>
+  <p class="review-stars" aria-label="별점 다섯 개">★★★★★</p>
+  <p class="review-small">※ 별점은 5개만 선택 가능합니다 ※</p>
+  <p class="review-first">흑조투어 역사상 <b>첫 번째 고객님</b>을 모십니다!!<br>생생후기 1호의 주인공은 바로 당신!!</p>
+ </div>
+</section>
+
+<!-- 6. 급구 -->
+<section class="stk orange urgent" aria-label="모집 현황">
+ <div class="stk-in">
+  <p class="urgent-top">급구! 급구!</p>
+  <p class="urgent-title"><span aria-hidden="true">💣</span>여행 갈 사람 구합니다!!</p>
+  <p class="kim">지금 안 오면<br>옆자리 <b>김대리</b>가 <em>갑니다!!</em></p>
+  <div class="recruit">
+   <span class="recruit-label">절찬<br>모집</span>
+   <p><small>현재 신청자</small><strong data-count>0명</strong></p>
+   <p><small>모집 인원</small><strong class="one">딱1명</strong></p>
+  </div>
+  <p class="blink">▶ 마 감 임 박 ◀</p>
+ </div>
+</section>
+
+<!-- 7. 신청 -->
+<button class="apply-ad" type="button" data-apply><span>☎ 누르세요! 떠나세요! ☎</span><strong>무료여행 신청!!</strong><b>★ 청.도.투.어 ★ 떠나시겠다! ★</b></button>
+
+<div class="call-band">
+ <span>상담환영<br>24시</span>
+ <button id="contact" type="button"><small>☎ 흑조투어 대표번호</small>010) 1234 - 5678</button>
+</div>
+<nav class="small-links" aria-label="상품 안내"><button type="button" data-info="details">★ 포함사항 ★</button><button type="button" data-info="faq">☎ 무엇이든 질문</button></nav>
+
+<!-- 8. 인증 마크 -->
+<section class="seals" aria-label="흑조투어 인증">
+ <span class="seal s1"><b>고객만족</b>1위<small>(자체조사)</small></span>
+ <span class="seal s2"><b>우수</b>여행사<small>(자체선정)</small></span>
+ <span class="seal s3"><b>사고율</b>0%<small>(신고 0건)</small></span>
+</section>
+
+<section class="fineprint" aria-label="유의사항">
+ <p>※ 유의사항 ※</p>
+ <ul>
+  <li>본 이벤트는 흑조투어 창립기념 행사로, 추첨을 통해 단 1명에게 여행 경비 전액을 지원합니다.</li>
+  <li>당첨자는 귀국 후 여행 후기를 반드시 작성해야 합니다. (별점 5점 권장)</li>
+  <li>당첨 후 취소·환불·양도는 불가합니다.</li>
+  <li>출발일에는 담당 직원이 고객님 댁 앞으로 픽업 갑니다. (주소를 몰라도 찾아갑니다)</li>
+  <li>여권은 분실 방지를 위해 현지에서 가이드가 보관해 드립니다.</li>
+  <li>귀국 일정은 현지 사정 및 가이드 재량에 따라 변경될 수 있습니다.</li>
+  <li>현재 등록된 후기 0건. 고객님의 후기가 흑조투어 1호 후기가 됩니다.</li>
+  <li>흑조수산 식구들이 수산업 30년 노하우로 정성껏 모십니다.</li>
+ </ul>
+ <p class="biz">흑조투어 (모회사: 흑조수산) | 대표 서귀란<br>사업자등록번호 444-86-04444<br>본사: 인천광역시 중구 인천항 제4부두 흑조수산 창고 2층</p>
+</section>
+</main>
+</div>
+
+<dialog id="application" aria-labelledby="form-title">
+ <button class="close" type="button" data-close aria-label="신청서 닫기">×</button>
+ <span class="tag">★ 무료여행 참가 신청서 ★</span>
+ <h2 id="form-title">청도 갈 준비,<br>되셨습니까?!</h2>
+ <p class="form-note">이름만 쓰면 끝!! 간편 응모!!<br>※ 추첨 결과는 즉시 발표됩니다!!</p>
+ <form id="trip-form">
+  <label for="nickname">여행자 이름 <span>필수</span></label>
+  <input id="nickname" name="nickname" maxlength="16" required autocomplete="off" placeholder="이름을 입력해 주세요">
+  <fieldset><legend>여행에서 가장 기대하는 것은?</legend><label><input type="radio" name="interest" value="food" checked> 🍜 맛있는 현지 음식!</label><label><input type="radio" name="interest" value="sights"> 📸 멋진 풍경과 관광!</label><label><input type="radio" name="interest" value="all"> ★ 전부 다요!!</label></fieldset>
+  <label class="consent"><input id="consent" type="checkbox" required><span>청도 4박5일 무료여행 이벤트에 응모하며, 귀국 후 후기 작성에 동의합니다. (취소 불가)</span></label>
+  <button class="cta" type="submit">♨ 무료여행 응모하기 ♨</button>
+ </form>
+</dialog>
+
+<dialog id="winner" aria-labelledby="winner-title">
+ <button class="close" type="button" data-close aria-label="당첨 안내 닫기">×</button>
+ <div class="winner-head"><span class="burst burst-win">축!</span><span>경 축</span></div>
+ <p class="winner-intro">치열한 경쟁을 뚫고</p>
+ <h2 id="winner-title">당첨되셨습니다!!</h2>
+ <p id="winner-name"></p>
+ <div class="ticket"><span>HEUKJO TOUR · 당첨 확인서</span><b>청도 4박5일</b><p>신청자 1명 · 당첨자 1명<br><strong>최종 경쟁률 1 : 1</strong><br>고객번호 <strong>No.0001</strong></p><div>픽업 안내 <b>흑조수산 식구가 집 앞으로 모시러 갑니다.</b></div><div>후기 작성 <b>필수 (귀국 후)</b></div><div>담당자 메시지 <b>“형님… 아니, 대표님. 첫 손님 들어왔습니다.<br>…아, 고객님. 짐만 챙기시면 됩니다.”</b></div></div>
+ <p class="ending">방금 신청했는데 벌써 당첨이라니.<br>어쨌든… 공짜니까?</p>
+ <a class="cta" id="pickup-link" href="https://share.crack.wrtn.ai/5bjb29b" target="_blank" rel="noopener">🚐 픽업 차량 탑승하기 ▶</a>
+</dialog>
+
+<dialog id="information" aria-labelledby="info-title"><button class="close" type="button" data-close aria-label="안내 닫기">×</button><span class="tag">☎ 흑조투어 고객센터 ☎</span><h2 id="info-title">무엇을 도와드릴까요?</h2><div id="info-body"></div><button class="cta" type="button" data-close>확인했습니다! ★</button></dialog>
+<dialog id="call" aria-labelledby="call-title">
+ <button class="close" type="button" data-close aria-label="통화 종료">×</button>
+ <span class="tag">☎ 흑조투어 대표번호 ☎</span>
+ <div class="call-screen">
+  <span class="call-phone" aria-hidden="true">☎</span>
+  <h2 id="call-title">흑조투어 고객센터</h2>
+  <p class="call-num">010) 1234 - 5678</p>
+  <p class="call-state"><span id="call-status">연결 중…</span> <b id="call-time">00:00</b></p>
+ </div>
+ <button class="cta call-end" type="button" data-close>📵 통화 종료</button>
+</dialog>
+</body></html>
